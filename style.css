@@ -1,0 +1,146 @@
+/* General Layout */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #e3f2fd, #f9f9f9);
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background: #0077cc;
+  color: #fff;
+  text-align: center;
+  padding: 25px 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1rem;
+  margin-top: 8px;
+}
+
+main {
+  width: 90%;
+  max-width: 1000px;
+  margin: 30px auto;
+}
+
+/* Form Section */
+.form-section {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  margin-bottom: 30px;
+}
+
+.form-section h2 {
+  text-align: center;
+  color: #0077cc;
+}
+
+form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+form input {
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+form input:focus {
+  border-color: #0077cc;
+  box-shadow: 0 0 5px #80c1ff;
+}
+
+#saveBtn {
+  background: #0077cc;
+  color: #fff;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#saveBtn:hover {
+  background: #005fa3;
+}
+
+/* Table Section */
+.table-section {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+}
+
+.table-section h2 {
+  text-align: center;
+  color: #0077cc;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+th {
+  background-color: #e6f0ff;
+  color: #333;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+button.action {
+  border: none;
+  padding: 6px 10px;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+}
+
+button.edit {
+  background-color: #4caf50;
+}
+
+button.delete {
+  background-color: #f44336;
+}
+
+button.action:hover {
+  opacity: 0.9;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #0077cc;
+  color: white;
+  padding: 10px 0;
+  font-size: 0.9rem;
+  margin-top: 30px;
+  border-radius: 0 0 10px 10px;
+}
