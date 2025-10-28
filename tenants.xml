@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tenants>
+  <tenant>
+    <name>Ravi Kumar</name>
+    <room>101</room>
+    <rent>7000</rent>
+    <date>2025-10-01</date>
+  </tenant>
+  <tenant>
+    <name>Manoj Singh</name>
+    <room>102</room>
+    <rent>7500</rent>
+    <date>2025-09-20</date>
+  </tenant>
+  <tenant>
+    <name>Anjali Verma</name>
+    <room>103</room>
+    <rent>7200</rent>
+    <date>2025-10-05</date>
+  </tenant>
+</tenants>
